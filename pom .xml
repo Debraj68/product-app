@@ -34,7 +34,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:Debraj68/product-app.git</connection>
 		<developerConnection>scm:git:git@github.com:Debraj68/product-app.git</developerConnection>
-		<url>git@github.com:Debraj/product-app.git</url>
+		<url>git@github.com:Debraj68/product-app.git</url>
 		<tag>v0.0.1</tag>
 	</scm>
 	<dependencies>
