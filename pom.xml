@@ -14,7 +14,7 @@
 	<name>product-app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	
 	<distributionManagement>
@@ -31,9 +31,9 @@
 	</distributionManagement>
 	
 	<scm>
-		<connection>scm:git:git@github.com:krishnamurthypradeep/devops-infrastructure.git</connection>
-		<developerConnection>scm:git:git@github.com:krishnamurthypradeep/devops-infrastructure.git</developerConnection>
-		<url>git@github.com:krishnamurthypradeep/devops-infrastructure.git</url>
+		<connection>scm:git:git@github.com:Debraj68/product-app.git</connection>
+		<developerConnection>scm:git:git@github.com:Debraj68/product-app.git</developerConnection>
+		<url>git@github.com:Debraj68/product-app.git</url>
 		<tag>v0.0.1</tag>
 	</scm>
 	
