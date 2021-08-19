@@ -56,23 +56,10 @@ bat 'curl -u jenkins:jenkins -T target/**.war "http://localhost:5050/manager/tex
 
 stage("Smoke Test"){
 
-bat "curl --retry-delay 10 --retry 5 http://localhost:5050/ibmdevops/api/v1/products&quot;
+bat '"curl --retry-delay 10 --retry 5 http://localhost:5050/ibmdevops/api/v1/products"'
 
 }
 
 }
 
 
-Announcement: "<role rolename="tomcat"/> <role…"
-pradeep murthy
-Created YesterdayYesterday
-<role rolename="tomcat"/>
-
-
-  <role rolename="manager-gui"/>
-
-
-  <role rolename="manager-script"/>
-  <user username="tomcat" password="tomcat" roles="tomcat"/>
-  <user username="manager" password="tomcat" roles="tomcat, manager-gui"/>
-  <user username="jenkins" password="jenkins" roles="manager-script"/>
