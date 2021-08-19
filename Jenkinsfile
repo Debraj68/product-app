@@ -50,7 +50,7 @@ bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean verify/)
 
 stage('Deploy') {
 
-bat 'curl -u jenkins:jenkins -F filedata=target/**.war "http://localhost:5050/manager/text/deploy?path=/ibmdevops&update=true"'
+bat 'curl -u jenkins:jenkins -T product-app.war "http://localhost:5050/manager/text/deploy?path=/ibmdevops&update=true"'
 
 }
 
