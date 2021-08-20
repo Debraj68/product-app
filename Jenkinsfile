@@ -56,7 +56,7 @@ bat 'curl -u jenkins:jenkins -T product-app.war "http://localhost:5050/manager/t
 
 stage("Smoke Test"){
 
-bat '"curl --retry-delay 10 --retry 5 http://localhost:5050/ibmdevops/api/v1/products"'
+bat "curl --retry-delay 10 --retry 5 http://localhost:5050/ibmdevops/api/v1/products"
 
 }
 
